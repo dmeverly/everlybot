@@ -1,4 +1,4 @@
-# Portfolio Chatbot (v2) — Reference Implementation for SynapSys
+# Everlybot — Reference Implementation for SynapSys
 
 **Author**: David Everly
 **Languages**:
