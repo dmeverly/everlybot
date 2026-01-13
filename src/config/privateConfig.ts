@@ -25,7 +25,7 @@ function requiredString(obj: Record<string, unknown>, key: string): string {
 }
 
 export function loadEverlybotPrivateConfig(): EverlybotPrivateConfig {
-  const secretsPath = requiredEnv("SECRETS_PATH");
+  const secretsPath = requiredEnv("SECRETS_DIR");
   const filename = (process.env.EVERLYBOT_CONFIG_FILE || "everlybot.json").trim();
 
   const fullPath = path.resolve(secretsPath, filename);

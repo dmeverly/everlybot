@@ -1,4 +1,6 @@
 SHELL := /bin/bash
+export SECRETS_DIR
+-include local.mk
 
 .PHONY: run clean dev
 
